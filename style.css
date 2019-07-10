@@ -43,7 +43,9 @@ section {
 }
 
 section h2 {
-  animation: drop3 4s ease 6s;
+  opacity: 0;
+  animation: drop3 4s ease 7s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes drop {
@@ -71,10 +73,6 @@ section h2 {
 
 @keyframes drop3 {
   0% {
-    opacity: 0;
-  }
-
-  50% {
     opacity: 0;
   }
 
