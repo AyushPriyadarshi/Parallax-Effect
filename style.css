@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  background: url(./Images/thumb-1920-607901.jpg);
+  position: relative;
+  z-index: -1;
+}
+
+.para {
+  font-weight: 800;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+  color: red;
+  animation: drop 3s ease;
+}
+
+.lax {
+  font-weight: 800;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-25%, -45%);
+  animation: drop2 6s ease;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  background: url(./Images/saitama.jpg) center / cover;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+section h2 {
+  animation: drop3 4s ease 6s;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes drop2 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes drop3 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
